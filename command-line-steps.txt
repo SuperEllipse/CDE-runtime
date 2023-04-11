@@ -1,0 +1,12 @@
+docker build --network=host -t vishrajagopalan/dex-spark-runtime-2.4.8-7.2.15.0:1.18.1-h3-b6-custom . -f Dockerfile
+
+docker push vishrajagopalan/dex-spark-runtime-2.4.8-7.2.15.0:1.18.1-h3-b6-custom
+
+cde credential create --name docker-creds --type docker-basic --docker-server hub.docker.com --docker-username vishrajagopalan
+
+cde resource create --name dex-spark-runtime-custom --image vishrajagopalan/dex-spark-runtime-2.4.8-7.2.15.0:1.18.1-h3-b6-custom --image-engine spark2 --type custom-runtime-image
+
+
+
+cd /Users/vrajagopalan/Library/spark/examples/src/main/python 
+cde spark submit --user=vishrajagopalan pi.py --runtime-image-resource-name=dex-spark-runtime-custom
