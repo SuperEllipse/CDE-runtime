@@ -1,4 +1,8 @@
-# Refer https://docs.google.com/document/d/1dZ_0UVizcwwAzlFp_2hHzgkfq6nkEXXraD11jkHW0X8/edit ( cloudera accesss needed)
-# Refer https://cloudera.atlassian.net/wiki/spaces/ENG/pages/10060824630/Docker+Registries+-+Operational+guide
+** Base Document( Internal Cloudera) that explains the steps -- Will be updated in the Readme**
 
-# we have used http://docker-registry.infra.cloudera.com/  ( login : Okta vishrajagopalan)
+Link : [Click here](Referhttps://docs.google.com/document/d/1dZ_0UVizcwwAzlFp_2hHzgkfq6nkEXXraD11jkHW0X8/edit)
+
+
+** we have used Internal Cloudera Docker registry **
+Link : [Click Here](http://docker-registry.infra.cloudera.com/ ) 
+Additional Reference : [Click here](Refer https://cloudera.atlassian.net/wiki/spaces/ENG/pages/10060824630/Docker+Registries+-+Operational+guide)
