@@ -5,4 +5,4 @@ Link : [Click here](Referhttps://docs.google.com/document/d/1dZ_0UVizcwwAzlFp_2h
 
 ** we have used Internal Cloudera Docker registry **
 Link : [Click Here](http://docker-registry.infra.cloudera.com/ ) 
-Additional Reference : [Click here](Refer https://cloudera.atlassian.net/wiki/spaces/ENG/pages/10060824630/Docker+Registries+-+Operational+guide)
+Additional Reference : [Click here](https://cloudera.atlassian.net/wiki/spaces/ENG/pages/10060824630/Docker+Registries+-+Operational+guide)
